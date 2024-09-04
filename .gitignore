@@ -1,3 +1,5 @@
 .idea/
 .venv
 .env
+*.log
+__pychache__/
