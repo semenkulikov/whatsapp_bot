@@ -14,4 +14,5 @@ API_URL = os.getenv("API_URL")
 MEDIA_URL = os.getenv("MEDIA_URL")
 API_TOKEN_INSTANCE = os.getenv("API_TOKEN_INSTANCE")
 ID_INSTANCE = os.getenv("ID_INSTANCE")
+ADMIN_ID = os.getenv("ADMIN_ID")
 
