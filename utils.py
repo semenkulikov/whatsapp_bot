@@ -1,6 +1,6 @@
-def main():
-    pass
-    
-    
-if __name__ == '__main__':
-    main()
+def send_message(greenAPI, group_id, message):
+    """
+    Отправляет сообщение через WhatsApp API
+    """
+    result = greenAPI.sending.sendMessage(group_id, message)
+    return result
